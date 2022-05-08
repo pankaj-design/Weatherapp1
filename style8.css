@@ -3,8 +3,8 @@
 }
 h1{
     text-align: center;
+    align-items: centre;
     color: blue;
-    margin-right: 10%;
     background-color:darkorange;
 }
 
@@ -13,6 +13,7 @@ h1{
    
     background-size: cover;
     align-items: centre;
+    margin: 3% 25%;
     
 }
 .C1{
@@ -22,10 +23,10 @@ h1{
      flex-direction: column;
     background-image: url("https://images.all-free-download.com/images/graphicwebp/night_moon_clouds_266001.webp");
     background-size: cover;
-    margin: 2% 30%;
+/*     margin: 2% 30%; */
     padding: 15px 5px;
     height: 400px;
-    width: 400px;
+/*     width: 400px; */
     border-radius: 15px;
     border-style: double;
     border-color: rgb(112, 4, 4);
@@ -67,7 +68,7 @@ li{
 }
 #userinput{
     height: 25px;
-    width: 220px;
+    width: 50%;
     border-style: solid;
     border-radius: 10px;
     background-color:cornsilk;
@@ -85,4 +86,7 @@ button{
 }
 button:hover{
     background-color: crimson;
+}
+@media screen and (max-width: 570px) {
+    .C4 {  flex-direction: column;};
 }
