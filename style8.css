@@ -90,3 +90,6 @@ button:hover{
 @media screen and (max-width: 570px) {
     .C4 {  flex-direction: column;};
 }
+@media screen and (max-width: 570px) {
+    .container { margin: 0};
+}
